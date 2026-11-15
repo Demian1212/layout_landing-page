@@ -1,0 +1,17 @@
+.footer-image {
+  position: relative;
+  width: 744px;
+  height: 480px;
+  margin: 102px auto 0;
+  overflow: hidden;
+
+  &__photo {
+    position: absolute;
+    top: 0;
+    left: -278px;
+    display: block;
+    width: 1090px;
+    height: 480px;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,228 @@
+@media (max-width: 600px) {
+  .hero {
+    height: 628px;
+
+    &__title {
+      inset: auto 20px 90px;
+      width: auto;
+      height: auto;
+      font-size: 36px;
+      line-height: 1.2;
+    }
+  }
+
+  .header {
+    padding-right: 24px;
+    padding-left: 24px;
+
+    &__logo {
+      width: auto;
+      font-size: 36px;
+    }
+
+    &__actions {
+      gap: 16px;
+    }
+
+    &__phone-wrapper {
+      gap: 12px;
+    }
+
+    &__phone-number {
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .menu {
+    &__header {
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+
+    &__links {
+      left: 24px;
+    }
+
+    &__contact {
+      left: 24px;
+    }
+  }
+
+  .move-free {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    padding: 80px 24px 40px;
+
+    &__title {
+      width: 100%;
+      font-size: 40px;
+    }
+
+    &__description {
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+
+  .compare {
+    margin-top: 80px;
+    padding: 0 24px;
+
+    &__title {
+      width: 100%;
+      height: auto;
+      font-size: 36px;
+    }
+  }
+
+  .bike-card {
+    width: 100%;
+    height: auto;
+
+    &--second,
+    &--third {
+      height: auto;
+    }
+
+    &__image {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 392 / 316;
+    }
+
+    &__title,
+    &__description,
+    &__price {
+      max-width: 100%;
+    }
+
+    &__description {
+      height: auto;
+    }
+  }
+
+  .details {
+    width: auto;
+    height: auto;
+    margin: 80px 24px 0;
+
+    &__title {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      font-size: 36px;
+    }
+
+    &__first,
+    &__second,
+    &__third {
+      width: 100%;
+      height: auto;
+    }
+
+    &__first {
+      margin-top: 48px;
+    }
+
+    &__second,
+    &__third {
+      margin-top: 48px;
+    }
+
+    &__images {
+      width: 100%;
+      height: auto;
+      gap: 12px;
+    }
+
+    &__images--third {
+      gap: 12px;
+    }
+
+    &__image-main {
+      width: 68%;
+      height: auto;
+      aspect-ratio: 392 / 187;
+    }
+
+    &__image-small {
+      width: calc(32% - 12px);
+      height: auto;
+      aspect-ratio: 184 / 187;
+    }
+
+    &__image-third-small {
+      width: 32%;
+      height: auto;
+      aspect-ratio: 184 / 188;
+    }
+
+    &__image-third-main {
+      width: calc(68% - 12px);
+      height: auto;
+      aspect-ratio: 395 / 188;
+    }
+
+    &__subtitle {
+      max-width: 100%;
+    }
+
+    &__description {
+      width: 100%;
+      height: auto;
+    }
+
+    &__button {
+      width: 100%;
+      margin: 48px 0 0;
+    }
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    width: auto;
+    height: auto;
+    margin: 80px 24px 48px;
+
+    &__title {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      font-size: 36px;
+    }
+
+    &__form {
+      width: 100%;
+      height: auto;
+      margin-top: 48px;
+    }
+
+    &__input,
+    &__message,
+    &__button {
+      width: 100%;
+    }
+
+    &__info {
+      width: 100%;
+      height: auto;
+      margin-top: 48px;
+    }
+  }
+
+  .footer-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 744 / 480;
+    margin-top: 80px;
+
+    &__photo {
+      width: 146.5%;
+      height: 100%;
+      left: -37.4%;
+      object-fit: cover;
+    }
+  }
+}
