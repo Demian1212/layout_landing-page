@@ -1,0 +1,139 @@
+.details {
+  width: 600px;
+  height: 1246px;
+  margin: 120px 72px 0;
+  font-family: Poppins, sans-serif;
+
+  &__title {
+    width: 392px;
+    height: 48px;
+    margin: 0 104px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    text-align: center;
+  }
+
+  &__first {
+    width: 600px;
+    height: 289px;
+    margin-top: 64px;
+  }
+
+  &__second {
+    width: 600px;
+    height: 311px;
+    margin-top: 48px;
+  }
+
+  &__third {
+    width: 600px;
+    height: 334px;
+    margin-top: 48px;
+  }
+
+  &__images {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 600px;
+    height: 187px;
+
+    &--third {
+      gap: 21px;
+      height: 188px;
+    }
+  }
+
+  &__image-main {
+    display: block;
+    width: 392px;
+    height: 187px;
+    object-fit: cover;
+  }
+
+  &__image-small {
+    display: block;
+    width: 184px;
+    height: 187px;
+    object-fit: cover;
+
+    &--rotated {
+      transform: rotateY(180deg);
+    }
+  }
+
+  &__image-third-small {
+    display: block;
+    width: 184px;
+    height: 188px;
+    object-fit: cover;
+  }
+
+  &__image-third-main {
+    display: block;
+    width: 395px;
+    height: 188px;
+    object-fit: cover;
+  }
+
+  &__subtitle {
+    width: 149px;
+    height: 34px;
+    margin: 16px 0 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0;
+
+    &--range {
+      width: 296px;
+      font-family: Inter, sans-serif;
+      font-weight: 700;
+    }
+
+    &--third {
+      width: 443px;
+    }
+  }
+
+  &__description {
+    width: 600px;
+    height: 44px;
+    margin: 8px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0;
+
+    &--range {
+      height: 66px;
+    }
+
+    &--third {
+      height: 88px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 392px;
+    height: 56px;
+    margin: 48px 104px 0;
+    padding: 0 48px;
+    border: 0;
+    border-radius: 40px;
+    background-color: #fff;
+    color: #1d1d1d;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: center;
+    cursor: pointer;
+  }
+}
